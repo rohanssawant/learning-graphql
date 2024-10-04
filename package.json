@@ -1,0 +1,20 @@
+{
+  "name": "learning-graphql",
+  "version": "1.0.0",
+  "description": "A repo made with an attempt to learn and play around with graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "graphql": "^16.9.0",
+    "nodemon": "^3.1.7"
+  }
+}
